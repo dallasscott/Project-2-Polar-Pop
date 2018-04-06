@@ -1,0 +1,44 @@
+.background    { background-image: url("http://revelwallpapers.net/media/wallpapers/the-icebergs-beauty-in-the-arctic-sunset.jpg");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(102, 255, 255); }
+.wall          { background: white;   }
+.WINNER        {background-image: url(images/winner winner.gif);
+                background-size:auto;}
+
+.actor  { position: absolute;  }
+.coin   { background-image: url(images/coins.fish.gif);
+          background-size: 20px 20px; }
+.player { background-image: url(images/polar_bear_PNG23524.png);
+          background-size: 30px 30px;
+        }
+.icicle { background-image: url(images/icicle.png);
+          background-size: 15px 15px;
+         }
+
+.trap {background-image: url(images/trap.PNG);
+      background-size: 30px 30px;
+    }
+
+.pop {background-image: url(images/floaterpop.png);
+          background-size: 20px 20px;
+
+}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background-image: url(images/polarbearlose.png);
+  background-size: 30px 30px;
+}
+.won .player {
+  background-image: url(images/WINNERmom.png);
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+
+}
